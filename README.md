@@ -1,2 +1,0 @@
-# deigmasushi
-Caixa Sushi
