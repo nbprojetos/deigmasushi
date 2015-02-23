@@ -1,0 +1,8 @@
+class PedidoController extends AppController {
+    public $helpers = array ('Html','Form');
+    public $name = 'Pedido';
+    
+    function index() {
+        $this->set('pedido', $this->Post->find('all'));
+    }
+}
