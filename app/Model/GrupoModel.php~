@@ -1,0 +1,3 @@
+class GrupoModel extends AppModel {
+    public $name = 'GRupo';
+}
