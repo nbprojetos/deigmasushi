@@ -22,6 +22,31 @@ SET time_zone = "+00:00";
 
 -- --------------------------------------------------------
 
+CREATE TABLE IF NOT EXISTS `grupos` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `descricao` id(30) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=14 ;
+
+--
+-- Extraindo dados da tabela `grupos`
+--
+
+INSERT INTO `grupos` (`id`, `descricao`) VALUES
+(1, 'ENTRADAS'),
+(2, 'SASHIMI(fatia)'),
+(3, 'URAMAKI(8un)'),
+(4, 'COMBINADOS'),
+(5, 'TEMAKI'),
+(6, 'HOT SUSHI(10un)'),
+(7, 'DRINKS'),
+(8, 'DOSES'),
+(9, 'CERVEJAS'),
+(10, 'VINHOS'),
+(11, 'NÃO-ALCÓOLICO'),
+(12, 'BEBIDAS QUENTES'),
+(13, 'SOBREMESAS');
+
 --
 -- Estrutura da tabela `mesas`
 --
